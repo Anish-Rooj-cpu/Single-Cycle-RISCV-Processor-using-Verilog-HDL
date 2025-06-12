@@ -4,8 +4,12 @@ In this project I have designed a Single Cycle RISCV Processor using Verilog HDL
 <img width="606" alt="Risc 5 Architecture unannoted" src="https://github.com/user-attachments/assets/5759f1d1-4b0b-46fd-95f2-586a722ba84f" />
 
 # Instructions Supported:
-<img width="606" alt="Risc 5 Architecture unannoted" src="https://github.com/user-attachments/assets/31192d99-452e-41cb-a188-1cd346cca2f0" />
-
+ The processor supports the **RISC-V base integer instruction set (RV32I)**, including:  
+ - R-type: `add`, `sub`, `and`, `or`, `slt`, `sll` 
+ - I-type: `addi`, `slti`, `lw`, `jalr`  
+ - S-type: `sw`  
+ - B-type: `beq`, `bne`, `blt`, `bge`  
+ - J-type: `jal`  
  Currently very few instructions are supported but there will be more in the future!
 
 
