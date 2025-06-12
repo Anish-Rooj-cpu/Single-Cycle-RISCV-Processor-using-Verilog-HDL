@@ -1,0 +1,43 @@
+`timescale 1ns/1ps
+module instructionMemory(
+  input [31:0] addr,
+  output [31:0] instruction
+);
+
+  reg [31:0] memory [0:255];
+  integer i;
+
+  assign instruction = memory[addr[9:2]];
+
+  initial begin
+    for (i = 0; i < 256; i = i + 1)
+      memory[i] = 32'h00000013; 
+
+    memory[0] = 32'h10000113;
+    memory[1] = 32'h00500293;
+    memory[2] = 32'h00C000EF;
+    memory[3] = 32'h00000013;
+    memory[4] = 32'hFFDFF06F;
+    memory[5] = 32'h00100413;
+    memory[6] = 32'h0082A3B3;
+    memory[7] = 32'h00038663;
+    memory[8] = 32'h00100313;
+    memory[9] = 32'h00008067;
+    memory[10] = 32'hFF810113;
+    memory[11] = 32'h00112223;
+    memory[12] = 32'h00512023;
+    memory[13] = 32'hFFF28293;
+    memory[14] = 32'hFDDFF0EF;
+    memory[15] = 32'h00012283;
+    memory[16] = 32'h00412083;
+    memory[17] = 32'h00810113;
+    memory[18] = 32'h00000393;
+    memory[19] = 32'h00000413;
+    memory[20] = 32'h00540863;
+    memory[21] = 32'h006383B3;
+    memory[22] = 32'h00140413;
+    memory[23] = 32'hFF5FF06F;
+    memory[24] = 32'h00038333;
+    memory[25] = 32'h00008067;
+  end
+endmodule
