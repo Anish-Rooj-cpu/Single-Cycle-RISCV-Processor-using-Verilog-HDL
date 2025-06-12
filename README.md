@@ -19,5 +19,11 @@ In this project I have designed a Single Cycle RISCV Processor using Verilog HDL
  The processor has been tested with various complex Programs like Factorial Determinaition, Sum of N natrual numbers, Bubble Sort and Fibonacci Series Generator.
  - The Test Bench is provided
  - The .asm files are assembled using a custom Assembler made by Python
-
+# How to RUN :
+To Run a program using this processor, follow these steps : 
+ - First, write the assembly program (with the above mentioned Instructions only, do not use any pseudo labels)
+ - Then, Hardcode the input path and output path in the Assembler.py program
+ - Output.v file will be generated in which there will be Hex codes hardcoded into the instruction memory
+ - Just paste this into the instruction memory module
+ - Finally, run the simulation
 
