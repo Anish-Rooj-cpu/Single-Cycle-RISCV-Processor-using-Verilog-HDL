@@ -11,8 +11,13 @@ In this project I have designed a Single Cycle RISCV Processor using Verilog HDL
  - B-type: `beq`, `bne`, `blt`, `bge`  
  - J-type: `jal`
 
+# Simulation 
+ The Codes have been simulated in the EDA Playground and also they have been Synthesised in Vivado
+ - Link of EDA Playground : https://edaplayground.com/x/XeZr
+
 # Testing and Verificiation 
  The processor has been tested with various complex Programs like Factorial Determinaition, Sum of N natrual numbers, Bubble Sort and Fibonacci Series Generator.
+ - The Test Bench is provided
  - The .asm files are assembled using a custom Assembler made by Python
 
 
