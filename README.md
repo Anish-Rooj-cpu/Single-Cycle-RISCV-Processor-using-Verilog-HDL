@@ -12,7 +12,7 @@ In this project I have designed a Single Cycle RISCV Processor using Verilog HDL
  - J-type: `jal`
 
 # Simulation 
- The Codes have been simulated in the EDA Playground and also they have been Synthesised in Vivado
+ The Codes have been simulated in the EDA Playground and also they have been Synthesized in Vivado
  - Link of EDA Playground : https://edaplayground.com/x/XeZr
 
 # Testing and Verificiation 
