@@ -3,7 +3,7 @@ In this project I have designed a Single Cycle RISCV Processor using Verilog HDL
 # Architecture Used :
 <img width="606" alt="Risc 5 Architecture unannoted" src="https://github.com/user-attachments/assets/5759f1d1-4b0b-46fd-95f2-586a722ba84f" />
 
-# RISC-V base instruction formats 
+# RISC-V Base Instruction Formats 
 <img width="606" alt="Risc 5 Architecture unannoted" src="https://github.com/user-attachments/assets/3016bb93-3bf9-4e93-b371-1e19e48669f2" />
 
 # Instructions Supported
