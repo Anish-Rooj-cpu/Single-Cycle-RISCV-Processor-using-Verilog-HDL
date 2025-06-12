@@ -9,7 +9,7 @@ In this project I have designed a Single Cycle RISCV Processor using Verilog HDL
  - I-type: `addi`, `slti`, `lw`, `jalr`  
  - S-type: `sw`  
  - B-type: `beq`, `bne`, `blt`, `bge`  
- - J-type: `jal`  
- Currently very few instructions are supported but there will be more in the future!
+ - J-type: `jal`
+Currently very few instructions are supported but there will be more in the future!
 
 
