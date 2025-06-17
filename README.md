@@ -8,10 +8,10 @@ In this project I have designed a Single Cycle RISCV Processor using Verilog HDL
 
 # Instructions Supported
  The processor supports the **RISC-V base integer instruction set (RV32I)**, including:  
- - R-type: `add`, `sub`, `and`, `or`, `slt`, `sll` 
- - I-type: `addi`, `and`,`or`,`slti`, `lw`, `jalr`  
+ - R-type: `add`, `sub`, `and`, `or`, `slt`, `sll`, `sltu`, `xor`, `sra`, `srl`
+ - I-type: `addi`, `and`,`or`,`slti`, `lw`, `jalr`, `sltiu`, `xori`, `srai`, `srli`
  - S-type: `sw`  
- - B-type: `beq`, `bne`, `blt`, `bge`  
+ - B-type: `beq`, `bne`, `blt`, `bge`, `bltu`, `bgeu`  
  - J-type: `jal`
 
 # Simulation 
