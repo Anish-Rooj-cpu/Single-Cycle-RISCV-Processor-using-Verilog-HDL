@@ -13,6 +13,7 @@ In this project I have designed a Single Cycle RISCV Processor using Verilog HDL
  - S-type: `sw`  
  - B-type: `beq`, `bne`, `blt`, `bge`, `bltu`, `bgeu`  
  - J-type: `jal`
+ - U-type: `lui`, `auipc`
 
 # Simulation 
  The Codes have been simulated in the EDA Playground and also they have been Synthesized in Vivado
